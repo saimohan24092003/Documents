@@ -1,0 +1,113 @@
+# SAP BTP (Business Technology Platform)
+
+SAP BTP is a cloud-based PaaS (Platform as a Service) that integrates tools for application development, data management, analytics, and automation.
+
+---
+
+## SAP BTP Topography
+file:///C:/Users/Asus/Downloads/Screenshot-2023-02-26-at-12.10.09%20(1).svg
+### End User
+End users can use a browser or mobile app to access the BTP cloud application.
+
+---
+
+## Main BTP Cloud (Center) – SAP Integration Suite
+
+### CPI (Cloud Platform Integration)
+Connects different systems automatically.
+
+**Example:**  
+Connects SAP systems such as:
+- SAP BTP
+- SAP S/4HANA
+- SuccessFactors
+
+With non-SAP systems such as:
+- Salesforce
+- Workday
+
+### API Management
+Controls application APIs securely.
+
+### SAP Event Mesh
+Shares real-time events (data) between applications.
+
+---
+
+## SAP Extension and Automation
+
+Used to build and automate custom applications on top of SAP systems without changing core code.
+
+### Process Automation
+No-code bots and workflows for repetitive tasks.
+
+### App Development
+Build custom business applications using:
+- Low-code tools
+- Cloud Foundry (CF)
+- ABAP Environment
+- Kyma (Microservices)
+
+### Work Zone
+Personalized dashboard where users see relevant tasks.
+
+**Examples:**
+- **Manager:** Sales KPIs + Team approvals  
+- **Worker:** Shift tasks + Inventory check  
+- **IT:** System alerts + New tickets  
+
+---
+
+## Data and Analytics
+
+Stores and analyzes data.
+
+### SAP Data Warehouse Cloud
+Used for cleaning, managing, and reporting large data.
+
+### SAP HANA Cloud
+High-performance cloud database.
+
+---
+
+## Foundation Services
+
+### Alert Notification
+Sends warnings via email/SMS.
+
+### Feature Toggle
+Turns application features ON/OFF safely.
+
+### Transport
+Moves code between test and production environments.
+
+---
+
+## Connectivity (Bottom Layer)
+
+### Connectivity Service
+Manages secure links between BTP and external systems.
+
+### Destination Service
+Stores connection details (address, credentials) for applications.
+
+### Identity Authentication Service (IAS)
+Provides single sign-on (SSO) for users and applications.
+
+### Cloud Connector
+Creates a secure tunnel between BTP and on-premises systems.
+
+---
+
+## External Cloud (Top)
+
+Other public clouds such as AWS or Azure can connect to SAP BTP.
+
+---
+
+## Private Cloud / On-Premise (Right Side)
+
+Company internal systems (e.g., SAP S/4HANA) stay behind the firewall.  
+Cloud Connector securely links SAP BTP to internal systems.
+
+---
