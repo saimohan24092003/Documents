@@ -3,7 +3,7 @@
 SAP BTP is a cloud based Paas that Integrates tools for application development, data management, analytics, and automation.
 
 ## SAP BTP Topography:
-![SAP BTP Topography](
+![SAP BTP Topography](https://github.com/saimohan24092003/Documents/blob/4f8494d61ecfc7e533bb984bbcce8ed8382797b5/assets/sap-topography.svg)
 End User can use browser/mobile app to access the BTP cloud app. 
 
 Main BTP cloud Box (Centre) – SAP Integration Suite
