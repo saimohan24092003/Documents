@@ -5,7 +5,7 @@ SAP BTP is a cloud-based PaaS (Platform as a Service) that integrates tools for 
 ---
 
 ## SAP BTP Topography
-![SAP BTP Topography](assets/sap-topography.svg)
+![SAP BTP Topography](https://github.com/saimohan24092003/Documents/blob/bb4cfffccb85f6a2002e8384ffcc7bab20b4d4dc/assets/sap-topography.svg)
 ### End User
 End users can use a browser or mobile app to access the BTP cloud application.
 
