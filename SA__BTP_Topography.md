@@ -1,113 +1,51 @@
 # SAP BTP (Business Technology Platform)
 
-SAP BTP is a cloud-based PaaS (Platform as a Service) that integrates tools for application development, data management, analytics, and automation.
+SAP BTP is a cloud based Paas that Integrates tools for application development, data management, analytics, and automation.
 
----
+## SAP BTP Topography:
+![SAP BTP Topography](
+End User can use browser/mobile app to access the BTP cloud app. 
 
-## SAP BTP Topography
-![SAP BTP Topography alt](https://github.com/saimohan24092003/Documents/blob/bb4cfffccb85f6a2002e8384ffcc7bab20b4d4dc/assets/sap-topography.svg)
-### End User
-End users can use a browser or mobile app to access the BTP cloud application.
+Main BTP cloud Box (Centre) – SAP Integration Suite
 
----
-
-## Main BTP Cloud (Center) – SAP Integration Suite
-
-### CPI (Cloud Platform Integration)
-Connects different systems automatically.
-
-**Example:**  
-Connects SAP systems such as:
-- SAP BTP
-- SAP S/4HANA
-- SuccessFactors
-
-With non-SAP systems such as:
-- Salesforce
-- Workday
-
-### API Management
-Controls application APIs securely.
-
-### SAP Event Mesh
-Shares real-time events (data) between applications.
-
----
+CPI (Cloud Platform Integration) – Connects different system automatically. (e.g., It will connect SAP System like SAP BTP, SAP S/4 HANA, SuccessFactors with non-SAP systems like Salesforce, Workday).  
+API Management – Control app APIs securely.  
+SAP Event Mesh – Shares real-time events (data) between apps.
 
 ## SAP Extension and Automation
 
-Used to build and automate custom applications on top of SAP systems without changing core code.
+Here we can build and automate the custom app on top of SAP Systems without changing the core code.
 
-### Process Automation
-No-code bots and workflows for repetitive tasks.
+Process Automation – No-code bots/workflows for repetitive task  
+Apps (App development) – Build custom business app using low-code and deploy that to CF (Cloud Foundry), ABAP (SAP Style), Kyma (Microservice).  
+Work Zone – It’s like personlaized Dashboard – everyone see their own task in one dashboard.  
 
-### App Development
-Build custom business applications using:
-- Low-code tools
-- Cloud Foundry (CF)
-- ABAP Environment
-- Kyma (Microservices)
+(Manager: Sales KPIs + Team approvals  
+  Worker:  Shift tasks + Inventory check  
+  IT:      System alerts + New tickets)
 
-### Work Zone
-Personalized dashboard where users see relevant tasks.
+## Data and Analytics - Stores and analyses data
 
-**Examples:**
-- **Manager:** Sales KPIs + Team approvals  
-- **Worker:** Shift tasks + Inventory check  
-- **IT:** System alerts + New tickets  
+SAP Data Warehouse Cloud – Clean and reports big data.  
+SAP HANA Cloud – Super fast DB (Database)
 
----
+## Foundation
 
-## Data and Analytics
+Alert Notification – Sends warning (email/SMS)  
+Feature Toggle – Turns app features on/off safely  
+Transport – Moves code between test/production
 
-Stores and analyzes data.
+## Connectivity (Bottom)
 
-### SAP Data Warehouse Cloud
-Used for cleaning, managing, and reporting large data.
-
-### SAP HANA Cloud
-High-performance cloud database.
-
----
-
-## Foundation Services
-
-### Alert Notification
-Sends warnings via email/SMS.
-
-### Feature Toggle
-Turns application features ON/OFF safely.
-
-### Transport
-Moves code between test and production environments.
-
----
-
-## Connectivity (Bottom Layer)
-
-### Connectivity Service
-Manages secure links between BTP and external systems.
-
-### Destination Service
-Stores connection details (address, credentials) for applications.
-
-### Identity Authentication Service (IAS)
-Provides single sign-on (SSO) for users and applications.
-
-### Cloud Connector
-Creates a secure tunnel between BTP and on-premises systems.
-
----
+Connectivity Service – Manages secure links between BTP and outside system.  
+Destination Service – Stores connection details (like address/password) for app to use.  
+Identification Authentication Service (IAS) – Single login (like SSO) for users/apps.  
+Cloud Connectors – Safe tunnel from BTP to On-premises server 
 
 ## External Cloud (Top)
 
-Other public clouds such as AWS or Azure can connect to SAP BTP.
+Other public clouds (AWS/Azure) connect to BTP
 
----
+## Private Cloud/On-Premise (Right Side)
 
-## Private Cloud / On-Premise (Right Side)
-
-Company internal systems (e.g., SAP S/4HANA) stay behind the firewall.  
-Cloud Connector securely links SAP BTP to internal systems.
-
----
+Company's internal S/4HANA systems behind firewall. Cloud Connector links BTP to internal systems.
