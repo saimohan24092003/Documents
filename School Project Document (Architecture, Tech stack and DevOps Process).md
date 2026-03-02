@@ -42,7 +42,8 @@
 |------------|---------|---------|
 | Clerk | v5.0.5 | Full auth — sign-in, sign-up, session, user management |
 
-# Deployment Flow — Local to Live (Vercel)
+---
+## Deployment Flow — Local to Live (Vercel)
 
 ## Step 1 — You wrote code on your laptop
 
