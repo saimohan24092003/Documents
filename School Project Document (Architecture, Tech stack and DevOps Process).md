@@ -33,7 +33,6 @@
 |------------|---------|---------|
 | Neon PostgreSQL | Serverless | Primary database (scales to zero) |
 | @neondatabase/serverless | v0.9.3 | HTTP connector for Neon |
-| Drizzle Kit | v0.22 | Schema migrations and DB studio |
 
 ---
 
