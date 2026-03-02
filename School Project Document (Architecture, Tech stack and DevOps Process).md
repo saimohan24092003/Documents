@@ -1,5 +1,5 @@
 # Architecture
-https://github.com/saimohan24092003/Documents/blob/f56177547d68ccd91e284de38016a741e2d4d03e/assets/Screenshot%202026-03-02%20114743.svg
+![School Project Architecture] (https://github.com/saimohan24092003/Documents/blob/f56177547d68ccd91e284de38016a741e2d4d03e/assets/Screenshot%202026-03-02%20114743.svg)
 
 # Architecture Stack
 
