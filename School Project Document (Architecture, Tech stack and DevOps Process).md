@@ -41,3 +41,70 @@
 | Technology | Version | Purpose |
 |------------|---------|---------|
 | Clerk | v5.0.5 | Full auth — sign-in, sign-up, session, user management |
+
+# Deployment Flow — Local to Live (Vercel)
+
+## Step 1 — You wrote code on your laptop
+
+```bash
+pnpm dev
+```
+
+* Only you could see it at `http://localhost:3000`
+* Nobody else in the world could access it.
+
+---
+
+## Step 2 — You pushed to GitHub
+
+```bash
+git add .
+git commit -m "your message"
+git push origin main
+```
+
+* Your code is now safely stored on GitHub.
+* Still not live for users yet.
+
+---
+
+## Step 3 — Vercel detected the push
+
+Vercel watches your GitHub repository automatically.
+
+When you push:
+
+* Vercel pulls your code
+* Runs:
+
+```bash
+pnpm build
+```
+
+* Builds your production-ready application.
+
+---
+
+## Step 4 — Vercel made it live
+
+Vercel deploys your app to global servers.
+
+When anyone opens your URL:
+
+* Vercel serves the page
+* Website loads in milliseconds worldwide.
+
+---
+
+## Flow Summary
+
+```
+Your Laptop
+     ↓
+GitHub Repository
+     ↓
+Vercel Auto Build
+     ↓
+Live Website (Worldwide)
+```
+
